@@ -1,0 +1,9 @@
+# Secrets — real MCP config holds a live API key, never commit it
+.mcp.json
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
