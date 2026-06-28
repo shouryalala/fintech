@@ -112,6 +112,22 @@ no earnings. But index concentration is *higher* now (~36% top-10 vs ~27% in 200
 2000 (MSFT −65%, Cisco −89%, Amazon −90%) prove a great *business* can still suffer a brutal
 multi-year *stock* drawdown — survival ≠ price protection.
 
+## Principles Gate (pre-verdict check — see [PRINCIPLES.md](../../PRINCIPLES.md))
+- **P1 — Priced in?** Largely yes — and that's the point. ORCL (−57% from high) and CRWV (−44%)
+  are *already* repricing; the market is not asleep. The edge is not "I found the risk" but the
+  *framing* read below.
+- **P2 — Behavioral/structural edge?** Two: (a) **narrative overshoot** — "AI" treated as one trade
+  when it's two risk profiles (allocation bet vs. solvency bet), amplified by EBITDA-quoting bulls
+  ignoring GPU depreciation; (b) **structural** — passive-flow concentration (~36% top-10) that
+  mechanically transmits an AI-led drop to the whole cap-weighted index. Other side: momentum/passive
+  buyers and index funds. Corrects as the capex-vs-monetization timing resolves.
+- **P3 — Horizon?** Yes — explicitly a 12–24 month thematic view; no precise timing required.
+- **P4 — Portfolio fit?** The implication (favor cheap non-AI value/income, cap AI concentration,
+  avoid the solvency-bet builders) is a diversifying, survive-being-early stance — consistent with P4.
+- **P5 — Compounding?** Yes — the favored exposures (durable cash-generative compounders like
+  MSFT/GOOGL held undisturbed, plus dividend-quality) are built to compound; the explicit avoidance
+  of the solvency-bet builders (CRWV/ORCL) is a no-ruin choice that protects the compounding chain.
+
 ## 9. Current Read / Verdict
 **Partially validated and materially refined.** (Conviction 3/5.)
 - ✅ Real dispersion and a real capex bubble (5 hyperscalers: ~$143B → ~$414B capex in ~3y).

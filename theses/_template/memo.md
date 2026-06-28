@@ -48,6 +48,14 @@ review_due: "{{REVIEW_DUE}}"
 ## 8. Findings & Evidence
 <!-- Consolidated data tables and the key numbers. Link to snapshots in ./data/ -->
 
+## Principles Gate (pre-verdict check — see [PRINCIPLES.md](../../PRINCIPLES.md))
+<!-- A thesis should pass all four before it informs a real decision. Name any failure. -->
+- **P1 — Priced in?** If obvious with public data + AI, what's the reason it isn't already in the price?
+- **P2 — Behavioral/structural edge?** Name the irrationality or forced flow. Who's on the other side and why are they irrational/forced? What corrects it, and roughly when?
+- **P3 — Horizon?** Does the payoff hold on a 1yr+ view without needing precise timing?
+- **P4 — Portfolio fit?** Sized so failure is a dent not a wipeout; adds diversification rather than piling into a crowded trade?
+- **P5 — Compounding?** Lets capital compound undisturbed — durable multi-year runway, no risk of ruin, minimal churn/tax/fee friction?
+
 ## 9. Current Read / Verdict
 <!-- Running conclusion + confidence. Updated each session; keep prior reads in the Analysis Log. -->
 

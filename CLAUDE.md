@@ -27,6 +27,13 @@ than only answering inline:
    used, the key numbers, and the conclusion.
 5. **Close** with a **post-mortem** that scores the call against the stated conviction.
 
+## Investment principles (apply on every decision)
+[`PRINCIPLES.md`](PRINCIPLES.md) holds the investment philosophy. **Before finalizing any thesis
+verdict or positioning note, run the idea through its Pre-Investment Gate** (priced-in? behavioral/
+structural edge with a named counterparty? 1yr+ horizon? portfolio fit? lets capital compound?) and
+surface any principle it fails. The one-line strategy: *harvest behavioral & structural mispricing
+with patient, diversified capital — and let it compound.* Frame everything as educational, never as personalized advice.
+
 ## Non-negotiable conventions
 - **As-of dating** — stamp every data pull with its date; a finding is only true as of then.
   Snapshot files: `data/YYYY-MM-DD-description.md`.
@@ -34,6 +41,13 @@ than only answering inline:
 - **Kill criteria are pre-registered** — written before testing, never edited to fit results.
 - **One idea per thesis.**
 - **Educational, not advice** — frame all positioning notes as such; no personalized financial advice.
+
+## Memo style — one readable file, data lives separately
+Each thesis is **one concise, easy-to-read `memo.md`** carrying the *inference*: a short
+**abstract**, the **analysis notes**, and the **final recommendations**. Keep it tight — minimal
+words, no bloat; a reader should grasp the conclusion fast. Push the **raw data out** to `data/`
+as separate files (markdown tables, CSVs, Excel sheets) and **link** to them — the memo references
+the data, it does not dump it. The memo is the summary; the files are the evidence.
 
 ## Where things live
 - `theses/README.md` — full conventions & lifecycle (🟡 open · 🟢 validated · 🔴 invalidated · ⚪ inconclusive).
