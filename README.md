@@ -27,6 +27,19 @@ Project-scoped servers require approval. Run Claude Code from this folder
 (`cd ~/CodeHaven/fintech`), and when prompted, approve the project MCP servers.
 Check status with `/mcp` inside Claude Code, or `claude mcp list` in a terminal.
 
+## Investment Thesis Log
+
+Ideas/hypotheses are tracked in [`theses/`](theses/) — an investment-research journal run with
+decision-journal discipline (falsifiable hypothesis, *variant perception*, pre-registered kill
+criteria, date-stamped analysis log, closing post-mortem). Start a new one with:
+
+```sh
+scripts/new-thesis.sh "your idea title"
+```
+
+See [`theses/README.md`](theses/README.md) for conventions and [`theses/INDEX.md`](theses/INDEX.md)
+for the catalog. Worked example: [Memo 001 — AI capex bubble & rotation](theses/001-ai-capex-bubble-rotation/memo.md).
+
 ## Scope & safety
 - This is **read-only public market data** — it never touches your brokerage.
 - Schwab account access / trading (Layer 2) is intentionally **not** set up here.
