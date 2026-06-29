@@ -7,3 +7,6 @@ npm-debug.log*
 
 # OS
 .DS_Store
+
+# Playwright MCP — runtime artifacts (console logs, page snapshots), not source
+.playwright-mcp/

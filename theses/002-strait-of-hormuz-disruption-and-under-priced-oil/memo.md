@@ -151,6 +151,7 @@ Five as-of `2026-06-28` snapshots back this memo (data lives there, not here):
 - Confirm valuations on the quality sleeve with a clean **EV/EBITDA** pull (yahoo lacked EBITDA; use `get_financial_statements` or AlphaVantage sparingly).
 - Track **VLCC spot rates + war-risk premia** as the real-time disruption gauge for the tanker leg.
 - Re-test if a kill criterion fires or by the **review date (2026-09-26).**
+- **Structural successor:** the multi-year/geopolitical version of this idea is now [thesis 003 — US energy realignment & the energy-security butterfly](../003-us-energy-realignment-and-the-energy-security-butterfly/memo.md).
 
 ## 12. Post-Mortem
 _Not yet closed. Original "not priced in" hypothesis already reads invalidated (oil spiked then faded), but the premise conflict (still-shut vs reopening) leaves the structural-tail residual genuinely open. To be scored at the review date or when the Hormuz status resolves._
