@@ -99,6 +99,35 @@ This thesis should be **abandoned or downgraded** if, over the next 1–2 quarte
 - **Conclusion / change to the thesis:** There IS an investable non-AI sleeve, and it's already
   outperforming. Rotation is currently *orderly* (the benign version of the worry), not a crash.
 
+### 2026-06-28 — What's *inside* the escape hatches? Which best shields an AI recession? (Open Q#2)
+- **Tools / data used:** `alphavantage ETF_PROFILE` attempted (SCHD/XLV/XLF) but **daily 25-req
+  limit was already exhausted** → fell back to `stockanalysis.com` holdings + web search of
+  issuer/SEC filings. → [holdings snapshot](data/2026-06-28-etf-holdings-ai-overlap.md)
+- **What I found:** SCHD (103 holdings, ~4.5% max name) is the most diversified and cleanest —
+  only ~7% mature semis (TXN/QCOM), no NVDA/AVGO/MSFT/GOOGL/META. XLV has **zero** AI overlap but
+  is top-heavy (LLY 16%, top-10 = 61%) and priced full (25.9x). XLF is clean of AI but the most
+  cyclical (BRK 12.5% + JPM 11.2%), so it dodges the AI *narrative* but not the *recession* leg.
+- **Conclusion / change to the thesis:** "Shield from an AI recession" needs **two** things —
+  low direct AI overlap *and* recession defense (because a deep AI pullback drags cap-weighted SPY
+  down too). On both axes **SCHD is the best single shield** (diversification + low single-name risk
+  + 3.25% income cushion); **XLV is the best pure-defense tilt**; **XLF is the weakest** AI-recession
+  shield despite being cheapest. Robust combo: SCHD core + XLV tilt; XLF as post-downturn value, not
+  a pre-bust hedge. None is a true hedge — correlations →1 in a liquidation. Closes Open Q#2.
+
+### 2026-06-28 — On value, is SCHD a better buy than healthcare? (Open Q#1)
+- **Tools / data used:** `yahoo-finance get_company_info` (trailing P/E, yield, 52wk range, MAs)
+  for SCHD/XLV + web search (finbox forward P/E; SCHD holdings forward P/E + dividend CAGR).
+  → [value snapshot](data/2026-06-28-schd-vs-xlv-value-forward-pe.md)
+- **What I found:** SCHD 18.9x trailing → ~15.3x forward, 3.25% yield; XLV 25.9x → ~19.9x forward,
+  1.68% yield. The trailing→forward compression shows XLV's premium is *partly justified by growth*
+  (~30% earnings growth priced — pharma/LLY GLP-1), while SCHD is cheap *by construction* (value/yield
+  screen). SCHD dividends grown every year since 2011 (~11% 10yr CAGR), earnings-backed → **not a
+  value trap**. Both near 52wk highs / above 200d MA (neither "on sale" today).
+- **Conclusion / change to the thesis:** On pure value **SCHD beats XLV** (cheaper trailing+forward,
+  ~2x yield, no trap). But not apples-to-apples: SCHD = cheap, diversified, slow-growth core; XLV =
+  dearer, concentrated (LLY 16%), growth-justified defensive tilt. They complement. Resolves Open Q#1
+  ("separate cheap value from value trap"): SCHD = genuine value, XLV = growth-at-a-reasonable-price.
+
 ## 8. Findings & Evidence
 Four as-of snapshots in [`data/`](data/):
 1. [`2026-06-27-ai-vs-nonai-1y-returns.md`](data/2026-06-27-ai-vs-nonai-1y-returns.md) — the dispersion.
@@ -147,8 +176,12 @@ multi-year *stock* drawdown — survival ≠ price protection.
   companies, pointed at the portfolio).
 
 ## 11. Open Questions / Next Tests
-- Pull **forward** P/E and earnings-revision trends to separate "cheap value" from "value trap."
-- Look at top holdings *inside* SCHD/XLV to see exactly what one would own.
+- ~~Pull **forward** P/E and earnings-revision trends to separate "cheap value" from "value trap."~~
+  ✅ Done 2026-06-28 ([value snapshot](data/2026-06-28-schd-vs-xlv-value-forward-pe.md)) — SCHD =
+  genuine cheap value (not a trap); XLV = growth-justified premium. On value, SCHD > XLV.
+- ~~Look at top holdings *inside* SCHD/XLV to see exactly what one would own.~~ ✅ Done 2026-06-28
+  ([holdings snapshot](data/2026-06-28-etf-holdings-ai-overlap.md)) — SCHD best single shield,
+  XLV best pure defense, XLF weakest (most cyclical). All three confirmed clean of AI-infra.
 - Track ORCL/CRWV interest coverage quarter-over-quarter (the solvency clock).
 - Watch RSP vs SPY weekly — the single cleanest tell for rotation vs. re-narrowing.
 - Add Alpha Vantage `NEWS_SENTIMENT` to see whether narrative matches the flows.
